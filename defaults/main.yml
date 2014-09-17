@@ -1,5 +1,5 @@
 ---
 
-aliases.shell: zsh
-aliases.user: {{ }}
-aliases.aliases: []
+aliases_shell: zsh
+aliases_user: user
+aliases_aliases: []
