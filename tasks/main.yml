@@ -1,0 +1,7 @@
+---
+
+- include: bash.yml
+  when: aliases.shell === "bash"
+
+- include: zsh.yml
+  when: aliases.shell === "zsh"

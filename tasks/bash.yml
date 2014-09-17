@@ -1,0 +1,9 @@
+---
+
+- name: Configure ~/.bash_aliases
+  lineinfile:
+    dest: /etc/aliases
+    line: "{{ item }}"
+  with_items: aliases.aliases
+  sudo: yes
+  sudo_user: "{{ aliases.user }}"
