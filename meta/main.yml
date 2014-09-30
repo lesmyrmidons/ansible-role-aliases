@@ -16,5 +16,4 @@ galaxy_info:
     - name: Ubuntu
       versions:
         - all
-  categories:
-    - shell
+  categories: shell
