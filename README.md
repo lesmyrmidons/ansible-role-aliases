@@ -18,10 +18,10 @@ None.
     - hosts: all
       roles:
         - role: lesmyrmidons.aliases
-				  aliases_shell: bash
-					aliases_user: vagrant
-					aliases_aliases:
-						- "alias ll='ls -la'"
+          aliases_shell: bash
+          aliases_user: vagrant
+          aliases_aliases:
+            - "alias ll='ls -la'"
             - "alias ping='ping -c4'"
 
 ## License
