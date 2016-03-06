@@ -2,4 +2,5 @@
 - hosts: all
 
   roles:
-    - ansible-role-aliases
+    - role: ansible-role-aliases
+      aliases_shell: bash
