@@ -1,6 +1,9 @@
 ansible-role-aliases
 ====================
 
+[![Build
+Status](https://travis-ci.org/lesmyrmidons/ansible-role-aliases.svg?branch=master)](https://travis-ci.org/lesmyrmidons/ansible-role-aliases)
+
 Ansible Role - Add Aliases on RHEL/CentOS and Debian/Ubuntu.
 
 ## Requirements
