@@ -17,3 +17,11 @@
     state=present
     backup=yes
   when: aliases_shell == "zsh"
+
+- name: If OS family RedHat add load source into .bashrc
+  lineinfile: >
+    dest=~/.bashrc
+    line="if [ -f ~/.bash_aliases ]; then\n . ~/.bash_aliases\n fi"
+    state=present
+    backup=yes
+  when: ansible_facts[‘os_family’] == "RedHat"
