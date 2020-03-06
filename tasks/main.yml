@@ -1,8 +1,8 @@
 ---
 
 - name: Configure ~/.{{ aliases_shell }}_aliases
-  sudo: yes
-  sudo_user: "{{ aliases_user }}"
+  become: yes
+  become_user: "{{ aliases_user }}"
   lineinfile: >
     dest=~/.{{ aliases_shell }}_aliases
     line="{{ item }}"
